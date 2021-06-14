@@ -2,3 +2,14 @@ product:
   iva: 0.16
   desc: "impuesto de valor agregado"
   defaultMethod: "defaultCircuitBreaker"
+    
+kafka:
+  topic:
+    name: ${config.kafka.topic.name}
+  server:
+    host: ${config.kafka.server.host}
+    port: ${config.kafka.server.port}
+  batch:
+    size: ${config.kafka.batch.size}
+  retires: ${config.kafka.retires}
+  linger: ${config.kafka.linger}
