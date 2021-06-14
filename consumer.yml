@@ -5,12 +5,12 @@ product:
   
 kafka:
   topic:
-    name: ${kafka.topic.name}
+    name: my-topic-test
   server:
-    host: ${kafka.server.host}
-    port: ${kafka.server.port}
+    host: localhost
+    port: 9092
   batch:
-    size: ${config.kafka.batch.size}
-  retires: ${kafka.retires}
-  linger: ${kafka.linger}
+    size: 16384
+  retires: 0
+  linger: 1
   
