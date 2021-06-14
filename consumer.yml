@@ -6,7 +6,7 @@ product:
 kafka:
   topic:
     name: ${kafka.server}
-  server: ${kafka.server}
+  server: localhost
   batch:
     size: ${kafka.batch.size}
   retires: ${kafka.retires}
