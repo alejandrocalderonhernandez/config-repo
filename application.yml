@@ -1,8 +1,1 @@
-config:
-  security:
-    oauth:
-      client:
-        id: client_test
-        secret: cl13nt_s3cr3t
-      jwt:
-        key: s3cr3t
+
