@@ -6,7 +6,9 @@ product:
 kafka:
   topic:
     name: ${kafka.server}
-  server: localhost
+  server:
+    host: ${kafka.server.host}
+    port: ${kafka.server.port}
   batch:
     size: ${kafka.batch.size}
   retires: ${kafka.retires}
