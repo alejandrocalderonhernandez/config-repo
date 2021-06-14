@@ -5,7 +5,7 @@ product:
   
 kafka:
   topic:
-    name: ${kafka.server}
+    name: ${kafka.topic.name}
   server:
     host: ${kafka.server.host}
     port: ${kafka.server.port}
