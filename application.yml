@@ -9,7 +9,9 @@ config:
 kafka:
   topic:
     name: my-topic-test
-  server: localhost:9092
+  server:
+    host: localhost
+    port: 9092
   batch:
     size: 16384
   retires: 0
