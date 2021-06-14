@@ -6,15 +6,15 @@ config:
         secret: cl13nt_s3cr3t
       jwt:
         key: s3cr3t
-  kafka:
-    topic:
-      name: my-topic-test
-    server:
-      host: localhost
-      port: 9092
-    batch:
-      size: 16384
-    retires: 0
-    linger: 1
+kafka:
+  topic:
+    name: my-topic-test
+  server:
+    host: localhost
+    port: 9092
+  batch:
+    size: 16384
+  retires: 0
+  linger: 1
   
   
